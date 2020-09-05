@@ -1,0 +1,28 @@
+:root {
+    --dark: rgb(32, 31, 31, 0.8);
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    text-align: center;
+}
+
+.submit {
+    font-weight: bold;
+}
+
+#input {
+    margin-bottom: 10px;
+    border: 2px solid var(--dark);
+    border-radius: 5px;
+}
+
+.result {
+    margin-top: 10px;
+    color: rgb(102, 1, 102);
+    border: 2px solid var(--dark);
+    border-radius: 5px;
+    padding: 10px;
+}
